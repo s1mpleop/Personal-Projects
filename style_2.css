@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'montserrat',sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover; 
+    background-position: top cover;
+    
+    
+    
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    height:  100vh;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.6));
+
+}
+
+.app-title{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.app-title p{
+    
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 500;
+    color:black;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.6);
+    
+}
+
+.notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+      display: none;  
+}
+
+.notification p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #721c24;
+    
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+.weather-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right: auto;
+    width: 300px;
+    height: 260px;
+    background-color:rgba(255,255,255,0.05);
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px; 
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 4em;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 3px 3px rgba(0,0,0,0.6);
+}
+
+.temperature-value p:hover{
+    
+}
+
+.temperature-value span{
+    color: #fff;
+    font-size: 0.5em;
+    font-weight: 400;
+    
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color:#fff;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 3px 3px rgba(0,0,0,0.6);
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 3px 3px rgba(0,0,0,0.6);
+}
+
+
